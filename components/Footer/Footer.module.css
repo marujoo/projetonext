@@ -1,7 +1,24 @@
-.footer {
-    background: none;
-    color: white;
-    font-weight:bold;
-    padding: 10px;
-    text-align: center;
+@keyframes textDec {
+  0% {
+    color: rgb(149, 222, 222);
   }
+
+  50% {
+    color: rgb(29, 160, 160);
+  }
+
+  100% {
+    color: rgb(149, 222, 222);
+  }
+}
+
+.footer{
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+    text-shadow: 10px;
+}
+.footer:hover{
+    animation: textDec 2s ease infinite;
+    cursor: pointer;
+}
