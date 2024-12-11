@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  
+
   margin: 0;
   padding: 0;
 
@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: url('https://pixabay.com/get/g6ab0d94ddc8a95605ab2e0f499adf43db4bf7ea52b8049eed913993cd78a1b4adf3429933f20975d6262a5b4aa32045cdbd3b28519471e47b3bffa39c547b462_1280.jpg');
+  background: url('https://images-ext-1.discordapp.net/external/ffgvyrC4m4ksTxTDXi9rV1FtSthchxLg67swC2W9-Uc/https/pixabay.com/get/g6ab0d94ddc8a95605ab2e0f499adf43db4bf7ea52b8049eed913993cd78a1b4adf3429933f20975d6262a5b4aa32045cdbd3b28519471e47b3bffa39c547b462_1280.jpg?format=webp&width=1480&height=987');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -20,19 +20,19 @@ body {
 
 
 .home{
-    
-    width: 320px;
-    height: 450px;
-    padding: 20px;
-    border-radius: 20px;
-    overflow-y: auto;
-    color: white;
-    font-weight: bold;
-    background: rgba(224, 220, 220, 0.2); 
-    transition: background-color 0.3s ease; 
-    position: relative;
+
+  width: 320px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow-y: auto;
+  color: white;
+  font-weight: bold;
+  background: rgba(224, 220, 220, 0.2); 
+  transition: background-color 0.3s ease; 
+  position: relative;
 }
 
 .home:hover {
-  background: rgba(205, 199, 199, 0.4); 
+background: rgba(205, 199, 199, 0.4); 
 }
