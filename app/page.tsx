@@ -1,23 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-export default function Page() {
-    return (
-        <main className="mainCarta">
-            <section className="carta">
-                <section className="carta-conteudo">
-                    <article className="carta-traseira">
-                    </article>
-                    <article className="carta-frontal">
-                        <h1>Bem-vindo ao meu primeiro trabalho com React e Next.Js</h1>
-                        <p>
-                            Vou fazer o melhor que posso dado em conta as circunstâncias, acompanhem o meu progresso!
-                        </p>
-                        <p>
-                            Obrigado por visitar
-                        </p>
-                    </article>
-                </section>
-            </section>
-        </main>
-    );
+export default function page() {
+  return <section className='home'>
+  <p>Estou muito entusiasmado por dar vida a este projeto usando tecnologias tão incríveis como React e Next.js. Esta jornada tem sido uma mistura de aprendizado, desafios e muita evolução.
+    Cada funcionalidade criada é um passo a mais na direção dos meus objetivos, e estou animado para descobrir tudo o que o futuro reserva para este projeto.
+    Obrigado por estar aqui e fazer parte desta aventura. Vamos juntos construir algo extraordinário! 🚀💻✨
+    </p>
+  </section>
 }
