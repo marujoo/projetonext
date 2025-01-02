@@ -53,7 +53,7 @@ export function Cart({
             onClick={onClose}
             className="bg-gray-200 text-gray-700 hover:bg-gray-300 py-2 px-4 rounded-lg w-full"
           >
-            Continuar Comprando
+            Continuar a comprar
           </button>
           {cartItems.length === 0 ? (
             <button
